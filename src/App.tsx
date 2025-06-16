@@ -125,6 +125,11 @@ function App() {
 
         // Предзагрузка шрифтов
         try {
+          // Предзагрузка Bebas Neue
+          const bebasFont = new FontFace('Bebas Neue', 'url(/fonts/Bebas.ttf)');
+          await bebasFont.load();
+          document.fonts.add(bebasFont);
+          
           await document.fonts.ready;
           console.log('Шрифты загружены');
         } catch (error) {
