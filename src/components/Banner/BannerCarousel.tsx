@@ -24,6 +24,13 @@ const bannerImages: BannerImage[] = [
     mobileSrc: "/banners/banner2-mobile.jpg",
     alt: "Ежегодная премия За развитие Дальнего Востока и Арктики",
     link: "https://premiya.mrprussia.ru/"
+  },
+  {
+    id: 3,
+    src: "/banners/banner3.jpg",
+    mobileSrc: "/banners/banner3-mobile.jpg",
+    alt: "Техпро: Технологический прорыв",
+    link: "https://techproforum.ru/"
   }
 ];
 

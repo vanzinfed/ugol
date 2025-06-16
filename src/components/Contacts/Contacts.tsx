@@ -13,9 +13,10 @@ const teamMembers = [
   },
   {
     id: 2,
-    name: 'Елена Габидуловна Курбаналиева',
+    name: 'Лена Габидуловна Курбаналиева',
     position: 'Координатор проекта',
     phone: '+7 (495) 662-97-49',
+    mobilePhone: '8-985-084-3882',
     email: 'techpro@s-kon.ru',
     image: '/images/contact2.png'
   },
@@ -49,6 +50,12 @@ const Contacts: React.FC = () => {
                     <Phone size={16} className="contact-icon" />
                     <span>{member.phone}</span>
                   </div>
+                  {member.mobilePhone && (
+                    <div className="contact-item">
+                      <Phone size={16} className="contact-icon" />
+                      <span>{member.mobilePhone}</span>
+                    </div>
+                  )}
                   <div className="contact-item">
                     <Mail size={16} className="contact-icon" />
                     <span>{member.email}</span>

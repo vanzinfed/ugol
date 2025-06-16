@@ -38,17 +38,16 @@ const Hero: React.FC = () => {
       <div className="overlay"></div>
       <div className="hero-content">
         <div className="title-container">
-          <h1 className="main-title wadik animate-fade-in delay-100">Международный конгресс</h1>
+          <h1 className="main-title wadik animate-fade-in delay-100" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>Международный конгресс</h1>
         </div>
         
-        <p className="subtitle animate-fade-in delay-300">
+        <p className="subtitle animate-fade-in delay-300" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
           «Угольная промышленность: инновации, цифровизация и экологическая безопасность»
         </p>
 
         <div className="event-info animate-fade-in delay-400">
           <p className="event-date">17 октября 2025</p>
           <p className="event-location">Москва</p>
-          <p className="event-venue">Торгово-промышленная палата РФ</p>
         </div>
         
         <div className="buttons-container">

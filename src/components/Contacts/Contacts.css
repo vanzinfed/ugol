@@ -7,7 +7,7 @@
   font-family: 'Onest', sans-serif;
   font-weight: 800;
   font-size: 32px;
-  color: #151d50;
+  color: #efaa34;
   margin-bottom: 60px;
   text-align: center;
   position: relative;
@@ -59,7 +59,7 @@
   font-family: 'Onest', sans-serif;
   font-weight: 900;
   font-size: 20px;
-  color: #151d50;
+  color: #000000;
   margin-bottom: 5px;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .contact-details .contact-icon {
-  color: #4963ae;
+  color: #efaa34;
 }
 
 .contact-details span {

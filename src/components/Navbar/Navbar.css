@@ -3,8 +3,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(208, 169, 51, 0.5);
-  backdrop-filter: blur(10px);
+  background-color: rgba(239, 170, 52, 0.5);
+  backdrop-filter: blur(20px);
   z-index: 1001;
   padding: 8px 0;
 }
@@ -64,8 +64,8 @@
 }
 
 .navbar.scrolled {
-  background-color: rgba(208, 169, 51, 0.5);
-  backdrop-filter: blur(10px);
+  background-color: rgba(239, 170, 52, 0.5);
+  backdrop-filter: blur(20px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   padding: 15px 0;
 }
@@ -128,9 +128,17 @@
   color: #c7c7c7;
 }
 
+.navbar.scrolled .nav-link {
+  color: #000000;
+}
+
+.navbar.scrolled .nav-link:hover {
+  color: #a0a0a0;
+}
+
 .register-btn {
-  background-color: #ee1b24;
-  color: #FFFFFF;
+  background-color: #efaa34;
+  color: #000000;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -144,7 +152,7 @@
 }
 
 .register-btn:hover {
-  background-color: #c91821;
+  background-color: #cf932c;
   transform: translateY(-2px);
   box-shadow: 0 0 30px rgba(255, 68, 0, 0.5);
 }
@@ -200,8 +208,8 @@
 
 .mobile-register-btn {
   display: none;
-  background-color: #ee1b24;
-  color: #FFFFFF;
+  background-color: #efaa34;
+  color: #000000;
   border: none;
   border-radius: 5px;
   padding: 6px 12px;
@@ -216,7 +224,7 @@
 }
 
 .mobile-register-btn:hover {
-  background-color: #c91821;
+  background-color: #cf932c;
   transform: translateY(-2px);
   box-shadow: 0 0 30px rgba(255, 68, 0, 0.5);
 }

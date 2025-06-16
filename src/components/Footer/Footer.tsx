@@ -84,15 +84,21 @@ const Footer: React.FC = () => {
       behavior: 'smooth'
     });
   };
-
   return (
     <footer className="relative overflow-hidden text-blue-100/70 py-12">
-      <div className="absolute inset-0 z-0 bg-[linear-gradient(to_right,#0a0f1a,#111827,#0a0f1a)]"></div>
+      <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 bg-black/80 backdrop-blur-sm"></div>
+        <img 
+          src="/images/bg-footer.jpg" 
+          alt="footer background" 
+          className="w-full h-full object-cover"
+        />
+      </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8 max-w-5xl mx-auto">
           <div className="text-center lg:text-left">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              <span className="font-['WADIK']">Международный конгресс</span>
+            <h3 className="text-3xl text-white mb-4">
+              <span style={{ fontFamily: 'Bebas Neue' }}>Международный конгресс</span>
             </h3>
             <p className="mb-4">
               Ключевое событие угольной промышленности России
@@ -133,10 +139,7 @@ const Footer: React.FC = () => {
           <div className="text-center lg:text-left">
             <h3 className="text-lg font-semibold text-white mb-4">Контакты</h3>
             <ul className="space-y-3">
-              <li className="flex items-start justify-center lg:justify-start">
-                <MapPin size={18} className="mr-2 mt-1 text-blue-400" />
-                <span>г. Москва Торгово-промышленная палата РФ"</span>
-              </li>
+              
               <li className="flex items-center justify-center lg:justify-start">
                 <Phone size={18} className="mr-2 text-blue-400" />
                 <span>+7 (495) 662-97-49</span>
@@ -150,16 +153,16 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="flex flex-wrap justify-center gap-4 mb-8">
-          <button className="details-btn" onClick={scrollToAbout}>
+          <button className="details-btn" onClick={handleRegisterClick}>
             <span>Условия участия</span>
           </button>
           <button className="corner-btn" onClick={scrollToAbout}>
             <span>О конгрессе</span>
           </button>
-          <button className="sponsor-btn">
+          <button className="sponsor-btn" onClick={handleRegisterClick}>
             <span>Стать спонсором</span>
           </button>
-          <button className="partner-btn">
+          <button className="partner-btn" onClick={handleRegisterClick}>
             <span>Стать партнером</span>
           </button>
         </div>

@@ -1,11 +1,29 @@
 .photo-block-section {
   padding-top: 0px;
   padding-bottom: 60px;
-  background-color: #f5f7fa;
+  background-color: #000000;
   overflow: hidden;
+  position: relative;
+}
+
+.photo-block-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/images/bg-photoblock.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  z-index: 0;
 }
 
 .photo-block-container {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -69,7 +87,7 @@
 
 .album-button:hover {
   transform: translateY(-5px);
-  background-color: #30378f !important;
+  background-color: #b48026 !important;
 }
 
 .album-button-image {

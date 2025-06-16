@@ -91,20 +91,20 @@ const Registration: React.FC = () => {
               fontFamily: 'Onest, sans-serif',
               fontWeight: 800,
               fontSize: 36,
-              color: '#d0a933',
+              color: '#efaa34',
               textAlign: 'center',
               lineHeight: 1.1,
               marginBottom: 16,
             }}
           >
-            Запросить условия <span style={{ color: '#d8b84d' }}>участия</span>
+            Запросить условия <span style={{ color: '#efaa34' }}>участия</span>
           </h2>
           <p
             style={{
               fontFamily: 'Onest, sans-serif',
               fontWeight: 600,
               fontSize: 16,
-              color: '#d0a933',
+              color: '#efaa34',
               opacity: 0.9,
               marginBottom: 0,
               marginTop: 0,
@@ -279,7 +279,7 @@ const Registration: React.FC = () => {
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className={`px-8 py-3 bg-[#d0a933] hover:bg-[#e0c767] text-white font-bold rounded-lg shadow-md transition-transform transform hover:scale-105 ${
+                  className={`px-8 py-3 bg-[#efaa34] hover:bg-[#e0c767] text-white font-bold rounded-lg shadow-md transition-transform transform hover:scale-105 ${
                     isLoading ? 'opacity-50 cursor-not-allowed' : ''
                   }`}
                 >

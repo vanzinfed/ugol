@@ -9,7 +9,7 @@
   font-family: 'Onest', sans-serif;
   font-weight: 800;
   font-size: 36px;
-  color: #d0a933;
+  color: #efaa34; /* изменён цвет */
   text-align: center;
   line-height: 1.1;
   margin-bottom: 36px !important;
@@ -89,7 +89,7 @@
   font-family: 'Onest', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  color: #d0a933;
+  color: #efaa34; /* изменён цвет */
   margin-bottom: 6px;
   transition: color 0.3s ease;
 }
@@ -110,7 +110,7 @@
   display: block;
   margin: 40px auto 0;
   padding: 12px 32px;
-  background: #d0a933;
+  background: #efaa34;
   color: white;
   border: none;
   border-radius: 8px;
@@ -126,33 +126,6 @@
   background: #e0c767;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(208, 169, 51, 0.3);
-}
-
-/* Декоративные элементы */
-.experts-section::before {
-  content: '';
-  position: absolute;
-  top: 1/4;
-  right: -64px;
-  width: 384px;
-  height: 384px;
-  background: #e8d681;
-  border-radius: 50%;
-  filter: blur(48px);
-  opacity: 0.4;
-}
-
-.experts-section::after {
-  content: '';
-  position: absolute;
-  bottom: 1/4;
-  left: -64px;
-  width: 384px;
-  height: 384px;
-  background: #d8b84d;
-  border-radius: 50%;
-  filter: blur(48px);
-  opacity: 0.4;
 }
 
 @media (max-width: 1200px) {

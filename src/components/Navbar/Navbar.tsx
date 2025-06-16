@@ -108,10 +108,10 @@ const Navbar: React.FC = () => {
               <Mail size={16} />
               <span>techpro@s-kon.ru</span>
             </a>
-            <div className="top-bar-link">
+            {/* <div className="top-bar-link">
               <MapPin size={16} />
               <span>г. Москва Торгово-промышленная палата РФ</span>
-            </div>
+            </div> */}
           </div>
           <a href="https://t.me/TechPro_Forum" target="_blank" rel="noopener noreferrer" className="top-bar-telegram">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="20" height="20">

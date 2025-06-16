@@ -14,6 +14,12 @@ const partnerLogos = [
   '/images/part10.png',
   '/images/part11.png',
   '/images/part12.png',
+  '/images/part13.png',
+  '/images/part14.png',
+  '/images/part15.png',
+  '/images/part16.png',
+  '/images/part17.png',
+  '/images/part18.png',
 ];
 
 const Partners: React.FC = () => {
@@ -99,7 +105,7 @@ const Partners: React.FC = () => {
               fontFamily: 'Onest, sans-serif',
               fontWeight: 800,
               fontSize: 36,
-              color: '#d0a933',
+              color: '#efaa34',
               textAlign: 'center',
               lineHeight: 1.1,
               marginBottom: 16,
@@ -107,7 +113,7 @@ const Partners: React.FC = () => {
               zIndex: 1
             }}
           >
-            Наши <span style={{ color: '#d8b84d' }}>партнеры</span>
+            <span style={{ color: '#efaa34' }}>Партнеры</span>
           </h2>
         </div>
         <div className="partners-marquee-wrapper">

@@ -40,7 +40,7 @@ function HomePage() {
   return (
     <>
       <Hero />
-      <BannerCarousel />
+      
       <About />
       <Topics />
       <Experts />
@@ -48,6 +48,7 @@ function HomePage() {
       <News />
       <PhotoBlock />
       <Projects />
+      <BannerCarousel />
       <Contacts />
       <Registration />
     </>
@@ -61,7 +62,7 @@ function App() {
   const [loadingProgress, setLoadingProgress] = useState(0);
 
   useEffect(() => {
-    document.title = 'Уголь';
+    document.title = 'Международный конгресс: Угольная промышленность';
     
     const preloadCriticalAssets = async () => {
       try {

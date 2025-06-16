@@ -93,7 +93,7 @@ const Topics: React.FC = () => {
   const visibleTopics = showAll ? topics : topics.slice(0, 6);
 
   return (
-    <section id="topics" className="py-20 relative overflow-hidden bg-[#fff6c1]">
+    <section id="topics" className="py-20 relative overflow-hidden bg-[#fff4e1]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="topics-header text-center mb-12">
           <h2
@@ -102,20 +102,20 @@ const Topics: React.FC = () => {
               fontFamily: 'Onest, sans-serif',
               fontWeight: 800,
               fontSize: 36,
-              color: '#d0a933',
+              color: '#efaa34',
               textAlign: 'center',
               lineHeight: 1.1,
               marginBottom: 16,
             }}
           >
-            Темы <span style={{ color: '#d8b84d' }}>конгресса</span>
+            Темы конгресса
           </h2>
           <p
             style={{
               fontFamily: 'Onest, sans-serif',
               fontWeight: 600,
               fontSize: 20,
-              color: '#5c4a00',
+              color: '#4a3a00',
               opacity: 0.9,
               marginBottom: 0,
               marginTop: 0,
@@ -130,17 +130,17 @@ const Topics: React.FC = () => {
           {visibleTopics.map((topic, index) => (
             <div
               key={index}
-              className="group rounded-xl p-6 border border-[#e0c767] bg-white shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105"
+              className="group rounded-xl p-6 border border-[#efaa34] bg-white shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-4 text-white"
                    style={{
-                     backgroundColor: '#d0a933',
+                     backgroundColor: '#efaa34',
                      transition: 'background-color 0.3s ease',
                    }}>
                 {topic.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-[#5c4a00] group-hover:text-[#d0a933] transition-colors">
+              <h3 className="text-xl font-semibold mb-2 text-[#4a3a00] group-hover:text-[#efaa34] transition-colors">
                 {topic.title}
               </h3>
               <p className="text-gray-700">
@@ -154,7 +154,7 @@ const Topics: React.FC = () => {
           <div className="text-center mt-12">
             <button
               onClick={() => setShowAll(!showAll)}
-              className="px-8 py-3 bg-[#d0a933] hover:bg-[#e0c767] text-white font-bold rounded-lg shadow-md transition-transform transform hover:scale-105"
+              className="px-8 py-3 bg-[#efaa34] hover:bg-[#f5bc60] text-white font-bold rounded-lg shadow-md transition-transform transform hover:scale-105"
             >
               {showAll ? 'Показать меньше' : 'Показать все темы'}
             </button>
@@ -163,8 +163,8 @@ const Topics: React.FC = () => {
       </div>
 
       {/* Декоративные элементы */}
-      <div className="absolute top-1/4 -right-64 w-96 h-96 bg-[#e8d681] rounded-full blur-3xl opacity-40"></div>
-      <div className="absolute bottom-1/4 -left-64 w-96 h-96 bg-[#d8b84d] rounded-full blur-3xl opacity-40"></div>
+      <div className="absolute top-1/4 -right-64 w-96 h-96 bg-[#ffe6b0] rounded-full blur-3xl opacity-40"></div>
+      <div className="absolute bottom-1/4 -left-64 w-96 h-96 bg-[#ffd88a] rounded-full blur-3xl opacity-40"></div>
     </section>
   );
 };

@@ -26,7 +26,7 @@ const News: React.FC = () => {
 
   return (
     <section className="news-section">
-      <h2 className="news-title">Новости мероприятия</h2>
+      <h2 className="news-title">Новости </h2>
       <div className="news-grid">
         <div className="main-news">
           {mainNews && (
