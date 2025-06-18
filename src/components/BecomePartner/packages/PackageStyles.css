@@ -1,0 +1,174 @@
+.become-partner-package-details {
+  color: #1e293b;
+  line-height: 1.7;
+}
+
+.become-partner-package-intro {
+  margin-bottom: 2rem;
+}
+
+.become-partner-package-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.become-partner-package-badge.delegate {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+}
+
+.become-partner-package-badge.expert {
+  background: linear-gradient(135deg, #10b981, #047857);
+}
+
+.become-partner-package-badge.exponent {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+}
+
+.become-partner-package-badge.general-partner {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+.become-partner-package-badge.plenary-partner {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+.become-partner-package-badge.roundtable-partner {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+}
+
+.become-partner-package-badge.science {
+  background: linear-gradient(135deg, #14b8a6, #0d9488);
+}
+
+.become-partner-package-summary {
+  font-size: 1.1rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.become-partner-package-content-section {
+  margin-bottom: 2rem;
+}
+
+.become-partner-section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+}
+
+.become-partner-content-block {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.become-partner-content-block p {
+  margin-bottom: 1rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.become-partner-content-block p:last-child {
+  margin-bottom: 0;
+}
+
+.become-partner-sub-list {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.become-partner-sub-list p {
+  margin-bottom: 0.5rem;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.become-partner-bonus-section {
+  margin-bottom: 2rem;
+}
+
+.become-partner-bonus-card {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  border: 1px solid #f59e0b;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.become-partner-bonus-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #92400e;
+  margin: 0 0 0.75rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.become-partner-bonus-text {
+  color: #78350f;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.become-partner-contact-section {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.become-partner-contact-text {
+  color: #64748b;
+  margin: 0;
+  font-weight: 500;
+}
+
+.become-partner-registration-link {
+  color: #3b82f6;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.become-partner-registration-link:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .become-partner-package-badge {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .become-partner-section-title {
+    font-size: 1.125rem;
+    padding: 0.75rem;
+  }
+  
+  .become-partner-content-block {
+    padding: 1.25rem;
+  }
+  
+  .become-partner-bonus-card,
+  .become-partner-contact-section {
+    padding: 1.25rem;
+  }
+}

@@ -18,11 +18,14 @@ import BannerCarousel from './components/Banner/BannerCarousel';
 import Loader from './components/Loader/Loader';
 import NotFound from './components/NotFound/NotFound';
 import CookieConsent from './components/CookieConsent/CookieConsent';
+import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton';
+import BecomePartner from './components/BecomePartner/BecomePartner';
 
 
 // ИМПОРТ НОВОСТЕЙ
 // НЕ ЗАБУДЬ ДОБАВИТЬ В РОУТЕР
 
+import News12 from './components/News/news/12';
 import News11 from './components/News/news/11';
 import News10 from './components/News/news/10';
 import News9 from './components/News/news/9';
@@ -40,7 +43,6 @@ function HomePage() {
   return (
     <>
       <Hero />
-      
       <About />
       <Topics />
       <Experts />
@@ -178,6 +180,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/news/12" element={<News12 />} />
           <Route path="/news/11" element={<News11 />} />
           <Route path="/news/10" element={<News10 />} />
           <Route path="/news/9" element={<News9 />} />
@@ -190,10 +193,12 @@ function App() {
           <Route path="/news/2" element={<News2 />} />
           <Route path="/news/1" element={<News1 />} />
           <Route path="/news" element={<NewsPool />} />
+          <Route path="/become-partner" element={<BecomePartner />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
         <CookieConsent />
+        <ScrollToTopButton />
       </div>
     </Router>
   );

@@ -320,19 +320,19 @@
 
 .navbar.news-page .nav-link:hover,
 .navbar.news-page .mobile-link:hover {
-  color: #FF4400;
+  color: #efaa34;
 }
 
 .navbar.news-page .register-btn,
 .navbar.news-page .mobile-register-btn {
-  background-color: #FF4400;
+  background-color: #efaa34;
   color: #fff;
   box-shadow: 0 0 27.1px rgba(255, 68, 0, 0.35);
 }
 
 .navbar.news-page .register-btn:hover,
 .navbar.news-page .mobile-register-btn:hover {
-  background-color: #e03e00;
+  background-color: #bd872b;
   box-shadow: 0 0 30px rgba(255, 68, 0, 0.5);
 }
 
@@ -342,5 +342,42 @@
 }
 
 .navbar.news-page .mobile-menu-btn {
+  color: #333;
+}
+
+.navbar.become-partner-page {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.become-partner-page .nav-link,
+.navbar.become-partner-page .mobile-link {
+  color: #333;
+}
+
+.navbar.become-partner-page .nav-link:hover,
+.navbar.become-partner-page .mobile-link:hover {
+  color: #efaa34;
+}
+
+.navbar.become-partner-page .register-btn,
+.navbar.become-partner-page .mobile-register-btn {
+  background-color: #efaa34;
+  color: #fff;
+  box-shadow: 0 0 27.1px rgba(255, 68, 0, 0.35);
+}
+
+.navbar.become-partner-page .register-btn:hover,
+.navbar.become-partner-page .mobile-register-btn:hover {
+  background-color: #bd872b;
+  box-shadow: 0 0 30px rgba(255, 68, 0, 0.5);
+}
+
+.navbar.become-partner-page .mobile-menu {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.become-partner-page .mobile-menu-btn {
   color: #333;
 }

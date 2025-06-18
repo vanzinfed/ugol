@@ -6,6 +6,7 @@ const partnerLogos = [
   '/images/part2.png',
   '/images/part3.png',
   '/images/part4.png',
+  '/images/part19.png',
   '/images/part5.png',
   '/images/part6.png',
   '/images/part7.png',

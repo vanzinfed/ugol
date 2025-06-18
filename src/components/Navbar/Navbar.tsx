@@ -120,7 +120,7 @@ const Navbar: React.FC = () => {
           </a>
         </div>
       </div>
-      <nav className={`navbar ${isScrolled ? 'scrolled' : ''} ${location.pathname.startsWith('/news') ? 'news-page' : ''}`}>
+      <nav className={`navbar ${isScrolled ? 'scrolled' : ''} ${location.pathname.startsWith('/news') ? 'news-page' : ''} ${location.pathname.startsWith('/become-partner') ? 'become-partner-page' : ''}`}>
         <div className="navbar-container">
           <div className="navbar-left">
             <div onClick={handleHomeClick} className="logo" style={{ cursor: 'pointer' }}>
@@ -130,22 +130,23 @@ const Navbar: React.FC = () => {
 
           {/* Desktop Menu */}
           <div className="nav-links">
-            {location.pathname === '/' ? (
+            {/* {location.pathname === '/' ? (
               <a href="#hero" className="nav-link" onClick={scrollToSection}>ГЛАВНАЯ</a>
             ) : (
               <div onClick={handleHomeClick} className="nav-link" style={{ cursor: 'pointer' }}>ГЛАВНАЯ</div>
-            )}
+            )} */}
             <a href="#about" className="nav-link" onClick={scrollToSection}>О МЕРОПРИЯТИИ</a>
             <a href="#experts" className="nav-link" onClick={scrollToSection}>ЭКСПЕРТЫ</a>
             <a href="#partners" className="nav-link" onClick={scrollToSection}>ПАРТНЕРЫ</a>
+            <Link to="/become-partner" className="nav-link" onClick={() => { closeMenu(); scrollToTop(); }}>СТАТЬ ПАРТНЕРОМ</Link>
             <a href="#projects" className="nav-link" onClick={scrollToSection}>ПРОЕКТЫ</a>
             <a href="#contacts" className="nav-link" onClick={scrollToSection}>КОНТАКТЫ</a>
-            <button className="register-btn" onClick={handleRegisterClick}>УЧАВСТВОВАТЬ</button>
+            <button className="register-btn" onClick={handleRegisterClick}>РЕГИСТРАЦИЯ</button>
           </div>
 
           <div className="navbar-center">
             {/* Mobile Register Button */}
-            <button className="mobile-register-btn" onClick={handleRegisterClick}>УЧАВСТВОВАТЬ</button>
+            <button className="mobile-register-btn" onClick={handleRegisterClick}>РЕГИСТРАЦИЯ</button>
           </div>
 
           <div className="navbar-right">
@@ -165,6 +166,7 @@ const Navbar: React.FC = () => {
           )}
           <a href="#experts" className="mobile-link" onClick={scrollToSection}>ЭКСПЕРТЫ</a>
           <a href="#partners" className="mobile-link" onClick={scrollToSection}>ПАРТНЕРЫ</a>
+          <Link to="/become-partner" className="mobile-link" onClick={() => { closeMenu(); scrollToTop(); }}>СТАТЬ ПАРТНЕРОМ</Link>
           <a href="#projects" className="mobile-link" onClick={scrollToSection}>ПРОЕКТЫ</a>
           <a href="#contacts" className="mobile-link" onClick={scrollToSection}>КОНТАКТЫ</a>
         </div>

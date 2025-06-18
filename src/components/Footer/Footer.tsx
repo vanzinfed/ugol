@@ -84,6 +84,17 @@ const Footer: React.FC = () => {
       behavior: 'smooth'
     });
   };
+
+  const handlePartnerClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+    setTimeout(() => {
+      navigate('/become-partner');
+    }, 500);
+  };
+
   return (
     <footer className="relative overflow-hidden text-blue-100/70 py-12">
       <div className="absolute inset-0 z-0">
@@ -159,10 +170,7 @@ const Footer: React.FC = () => {
           <button className="corner-btn" onClick={scrollToAbout}>
             <span>О конгрессе</span>
           </button>
-          <button className="sponsor-btn" onClick={handleRegisterClick}>
-            <span>Стать спонсором</span>
-          </button>
-          <button className="partner-btn" onClick={handleRegisterClick}>
+          <button className="sponsor-btn" onClick={handlePartnerClick}>
             <span>Стать партнером</span>
           </button>
         </div>

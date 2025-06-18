@@ -6,7 +6,7 @@ const teamMembers = [
   {
     id: 1,
     name: 'Тамара Ивановна Мордасова',
-    position: 'Исполнительный директор Экспертной встречи «Техпро»',
+    position: 'Исполнительный директор',
     phone: '+7 (985) 424-46-67',
     email: 'techpro@s-kon.ru',
     image: '/images/contact1.png'
@@ -16,7 +16,7 @@ const teamMembers = [
     name: 'Лена Габидуловна Курбаналиева',
     position: 'Координатор проекта',
     phone: '+7 (495) 662-97-49',
-    mobilePhone: '8-985-084-3882',
+    mobilePhone: '+7 (985) 084-38-82',
     email: 'techpro@s-kon.ru',
     image: '/images/contact2.png'
   },
@@ -25,6 +25,7 @@ const teamMembers = [
     name: 'Ирина Сергеевна Викторова',
     position: 'Деловая программа',
     phone: '+7 (495) 662-97-49',
+    mobilePhone: '+7 (905) 736-63-44',
     email: 'techpro@s-kon.ru',
     image: '/images/contact3.png'
   }

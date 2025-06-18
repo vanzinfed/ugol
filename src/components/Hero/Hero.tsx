@@ -1,8 +1,11 @@
 import React from 'react';
 import { Calendar } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import './Hero.css';
 
 const Hero: React.FC = () => {
+  const navigate = useNavigate();
+
   const scrollToAbout = () => {
     const aboutSection = document.getElementById('about');
     if (!aboutSection) return;
@@ -33,6 +36,16 @@ const Hero: React.FC = () => {
     });
   };
 
+  const handlePartnerClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+    setTimeout(() => {
+      navigate('/become-partner');
+    }, 500);
+  };
+
   return (
     <section id="hero" className="hero">
       <div className="overlay"></div>
@@ -57,10 +70,7 @@ const Hero: React.FC = () => {
           <button className="corner-btn animate-fade-in delay-600" onClick={scrollToAbout}>
             <span>О конгрессе</span>
           </button>
-          <button className="sponsor-btn animate-fade-in delay-700" onClick={scrollToRegister}>
-            <span>Стать спонсором</span>
-          </button>
-          <button className="partner-btn animate-fade-in delay-800" onClick={scrollToRegister}>
+          <button className="sponsor-btn animate-fade-in delay-700" onClick={handlePartnerClick}>
             <span>Стать партнером</span>
           </button>
         </div>
