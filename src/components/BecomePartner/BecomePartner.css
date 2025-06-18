@@ -59,7 +59,7 @@
 
 .become-partner-packages-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -77,6 +77,10 @@
 .become-partner-package-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.become-partner-package-card:last-child {
+  grid-column: 2;
 }
 
 .become-partner-package-header {
@@ -114,12 +118,11 @@
 .become-partner-package-description {
   color: #64748b;
   line-height: 1.6;
-  margin-bottom: 1.5rem;
   font-size: 1rem;
 }
 
 .become-partner-package-btn {
-  background: #efaa34;
+  background: rgba(239, 170, 52, 0.3);
   color: black;
   border: none;
   padding: 12px 24px;
@@ -132,7 +135,7 @@
 }
 
 .become-partner-package-btn:hover {
-  background: #cf932c;
+  background: rgba(239, 170, 52, 0.9);
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(239, 170, 52, 0.3);
 }
@@ -229,6 +232,10 @@
   .become-partner-packages-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+  
+  .become-partner-package-card:last-child {
+    grid-column: 1;
   }
   
   .become-partner-package-card {

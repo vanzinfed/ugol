@@ -10,9 +10,9 @@ const PackageRoundTablePartner: React.FC = () => {
           <MessageSquare size={20} />
           <span>Дискуссионный пакет</span>
         </div>
-        <p className="become-partner-package-summary">
+        {/* <p className="become-partner-package-summary">
           Партнерство с круглым столом и участие в экспертных дискуссиях по актуальным вопросам отрасли.
-        </p>
+        </p> */}
       </div>
 
       <div className="become-partner-package-content-section">

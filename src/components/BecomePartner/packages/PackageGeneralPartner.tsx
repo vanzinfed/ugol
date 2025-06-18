@@ -10,9 +10,9 @@ const PackageGeneralPartner: React.FC = () => {
           <Crown size={20} />
           <span>Премиум пакет</span>
         </div>
-        <p className="become-partner-package-summary">
+        {/* <p className="become-partner-package-summary">
           Статус главного партнера с максимальной видимостью и престижными привилегиями.
-        </p>
+        </p> */}
       </div>
 
       <div className="become-partner-package-content-section">

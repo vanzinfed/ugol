@@ -65,7 +65,7 @@ const PhotoBlock: React.FC = () => {
           </div>
         </div>
       </section>
-      <div className="photo-block-caption" style={{fontFamily: 'Onest, sans-serif', fontWeight: 600, fontSize: 'clamp(16px, 3vw, 20px)', color: '#4B5563', marginTop:16, opacity: 0.8, textAlign: 'center'}}>
+      <div className="photo-block-caption" style={{fontFamily: 'Onest, sans-serif', fontWeight: 600, fontSize: 'clamp(16px, 3vw, 12px)', color: '#4B5563', marginTop:16, opacity: 0.8, textAlign: 'center'}}>
         Добыча угля в Нерюнгринском районе. Колмар. Якутия. Фото Ю.Н. Коковина.
       </div>
     </>

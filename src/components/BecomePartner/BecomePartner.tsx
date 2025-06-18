@@ -19,52 +19,52 @@ interface Package {
 
 const packages: Package[] = [
   {
-    id: 'delegate',
-    title: 'Пакет «Делегат»',
-    shortDescription: 'Участие в деловой программе и получение рабочих материалов',
-    color: 'from-blue-500 to-blue-600',
-    component: PackageDelegate
-  },
-  {
     id: 'science',
     title: 'Пакет «Делегат (наука)»',
-    shortDescription: 'Научное участие и публикация исследований',
-    color: 'from-teal-500 to-teal-600',
+    shortDescription: '',
+    color: 'bg-[#efaa34]',
     component: PackageScience
+  },
+  {
+    id: 'delegate',
+    title: 'Пакет «Делегат»',
+    shortDescription: '',
+    color: 'bg-[#efaa34]',
+    component: PackageDelegate
   },
   {
     id: 'expert',
     title: 'Пакет «Эксперт»',
-    shortDescription: 'Расширенное участие с экспертными возможностями',
-    color: 'from-emerald-500 to-emerald-600',
+    shortDescription: '',
+    color: 'bg-[#efaa34]',
     component: PackageExpert
-  },
-  {
-    id: 'exponent',
-    title: 'Пакет «Стратегический партнер»',
-    shortDescription: 'Возможность представить свою продукцию и услуги',
-    color: 'from-purple-500 to-purple-600',
-    component: PackageExponent
   },
   {
     id: 'roundtable-partner',
     title: 'Пакет «Партнер круглого стола»',
-    shortDescription: 'Партнерство с круглым столом и экспертными дискуссиями',
-    color: 'from-indigo-500 to-indigo-600',
+    shortDescription: '',
+    color: 'bg-[#efaa34]',
     component: PackageRoundTablePartner
+  },
+  {
+    id: 'exponent',
+    title: 'Пакет «Стратегический партнер»',
+    shortDescription: '',
+    color: 'bg-[#efaa34]',
+    component: PackageExponent
   },
   {
     id: 'plenary-partner',
     title: 'Пакет «Официальный партнер»',
-    shortDescription: 'Официальное партнерство с повышенной видимостью среди ключевой аудитории',
-    color: 'from-red-500 to-red-600',
+    shortDescription: '',
+    color: 'bg-[#efaa34]',
     component: PackagePlenaryPartner
   },
   {
     id: 'general-partner',
     title: 'Пакет «Генеральный партнер»',
-    shortDescription: 'Максимальная видимость и статус главного партнера',
-    color: 'from-amber-500 to-amber-600',
+    shortDescription: '',
+    color: 'bg-[#efaa34]',
     component: PackageGeneralPartner
   }
 ];
@@ -86,15 +86,15 @@ const BecomePartner: React.FC = () => {
       <div className="become-partner-hero-section">
         <div className="become-partner-container">
           <h1 className="become-partner-hero-title">
-            Стать партнером
+            Стать партнером конгресса
           </h1>
           <p className="become-partner-hero-subtitle">
             Пакеты участия 2025 года
           </p>
           <div className="become-partner-hero-description">
             <p>
-              Участие платное. Необходима предварительная <a href="/#register" className="text-blue-600 hover:text-blue-800 font-bold">регистрация</a>.
-              Ниже вы можете ознакомиться с возможными пакетами участия.
+              Участие платное. Необходима предварительная <a href="/#register" className="text-blue-600 hover:text-blue-800 font-bold">регистрация</a>.<br></br>
+              Ниже вы можете ознакомиться с возможными форматами участия.
             </p>
           </div>
         </div>
@@ -131,7 +131,7 @@ const BecomePartner: React.FC = () => {
           <div className="become-partner-modal-content" onClick={(e) => e.stopPropagation()}>
             <div className="become-partner-modal-header">
               <h2 className="become-partner-modal-title">
-                Пакет участия «{selectedPackage.title}»
+                {selectedPackage.title}
               </h2>
               <button className="become-partner-modal-close" onClick={closeModal}>
                 <X size={24} />

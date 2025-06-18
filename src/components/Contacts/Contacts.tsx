@@ -7,7 +7,8 @@ const teamMembers = [
     id: 1,
     name: 'Тамара Ивановна Мордасова',
     position: 'Исполнительный директор',
-    phone: '+7 (985) 424-46-67',
+    phone: '+7 (495) 662-97-49',
+    mobilePhone: '+7 (985) 424-46-67',
     email: 'techpro@s-kon.ru',
     image: '/images/contact1.png'
   },

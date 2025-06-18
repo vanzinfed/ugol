@@ -10,9 +10,9 @@ const PackageScience: React.FC = () => {
           <BookOpen size={20} />
           <span>Научный пакет</span>
         </div>
-        <p className="become-partner-package-summary">
+        {/* <p className="become-partner-package-summary">
           Участие в научной программе с возможностью публикации исследований и обмена опытом.
-        </p>
+        </p> */}
       </div>
 
       <div className="become-partner-package-content-section">

@@ -10,9 +10,9 @@ const PackagePlenaryPartner: React.FC = () => {
           <Users size={20} />
           <span>Партнерский пакет</span>
         </div>
-        <p className="become-partner-package-summary">
+        {/* <p className="become-partner-package-summary">
           Официальное партнерство с повышенной видимостью среди ключевой аудитории.
-        </p>
+        </p> */}
       </div>
 
       <div className="become-partner-package-content-section">

@@ -10,10 +10,10 @@ const PackageDelegate: React.FC = () => {
           <Star size={20} />
           <span>Базовый пакет</span>
         </div>
-        <p className="become-partner-package-summary">
+        {/* <p className="become-partner-package-summary">
           Идеальный выбор для компаний, желающих принять участие в деловой программе 
           конгресса и получить базовые маркетинговые возможности.
-        </p>
+        </p> */}
       </div>
 
       <div className="become-partner-package-content-section">

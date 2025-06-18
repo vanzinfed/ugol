@@ -10,9 +10,9 @@ const PackageExponent: React.FC = () => {
           <Presentation size={20} />
           <span>Стратегический партнер</span>
         </div>
-        <p className="become-partner-package-summary">
+        {/* <p className="become-partner-package-summary">
           Пакет «Стратегический партнер» с расширенными возможностями участия и продвижения на международном конгрессе.
-        </p>
+        </p> */}
       </div>
 
       <div className="become-partner-package-content-section">
