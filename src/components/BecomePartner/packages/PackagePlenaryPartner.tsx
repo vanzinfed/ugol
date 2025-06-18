@@ -11,8 +11,7 @@ const PackagePlenaryPartner: React.FC = () => {
           <span>Партнерский пакет</span>
         </div>
         <p className="become-partner-package-summary">
-          Официальное партнерство
-          с повышенной видимостью среди ключевой аудитории.
+          Официальное партнерство с повышенной видимостью среди ключевой аудитории.
         </p>
       </div>
 
