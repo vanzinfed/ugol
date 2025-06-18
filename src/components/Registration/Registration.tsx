@@ -46,7 +46,7 @@ const Registration: React.FC = () => {
         company: formData.company,
         position: formData.position,
         phone: formData.phone,
-        message: `Новая регистрация на ТехПро 2025\n
+        message: `Новая регистрация на Международный Конгресс: Угольная Промышленность\n
                  Имя: ${formData.firstName}\n
                  Фамилия: ${formData.lastName}\n
                  Email: ${formData.email}\n
@@ -57,10 +57,10 @@ const Registration: React.FC = () => {
       };
 
       await emailjs.send(
-        'service_vovw1gm', // Замените на ваш Service ID
-        'template_asnem7s', // Замените на ваш Template ID
+        'service_7j74i5u', // Замените на ваш Service ID
+        'template_m4oa7in', // Замените на ваш Template ID
         templateParams,
-        'i8_PdsBadpJBCtCeU' // Замените на ваш Public Key
+        'WFrZDUta_EnnLaIX1' // Замените на ваш Public Key
       );
 
       setIsSubmitted(true);

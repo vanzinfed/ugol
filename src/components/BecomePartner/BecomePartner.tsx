@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { X } from 'lucide-react';
 import PackageDelegate from './packages/PackageDelegate';
 import PackageExpert from './packages/PackageExpert';
-import PackageExponent from './packages/PackageExponent';
+import PackageExponent from './packages/PackageExponent'; 
 import PackageGeneralPartner from './packages/PackageGeneralPartner';
 import PackagePlenaryPartner from './packages/PackagePlenaryPartner';
 import PackageRoundTablePartner from './packages/PackageRoundTablePartner';
@@ -109,15 +109,10 @@ const BecomePartner: React.FC = () => {
                 key={pkg.id}
                 className="become-partner-package-card"
                 onClick={() => openModal(pkg)}
+                style={{ '--package-color': pkg.color.replace('bg-[', '').replace(']', '') } as React.CSSProperties}
               >
-                <div className={`become-partner-package-header bg-gradient-to-r ${pkg.color}`}>
+                <div className="become-partner-package-header">
                   <h3 className="become-partner-package-title">{pkg.title}</h3>
-                </div>
-                <div className="become-partner-package-content">
-                  <p className="become-partner-package-description">{pkg.shortDescription}</p>
-                  <button className="become-partner-package-btn">
-                    Подробнее
-                  </button>
                 </div>
               </div>
             ))}

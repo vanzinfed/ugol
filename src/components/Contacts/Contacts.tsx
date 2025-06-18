@@ -15,7 +15,7 @@ const teamMembers = [
   {
     id: 2,
     name: 'Лена Габидуловна Курбаналиева',
-    position: 'Координатор проекта',
+    position: 'Директор по развитию',
     phone: '+7 (495) 662-97-49',
     mobilePhone: '+7 (985) 084-38-82',
     email: 'techpro@s-kon.ru',
