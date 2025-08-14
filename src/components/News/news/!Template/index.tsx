@@ -1,3 +1,6 @@
+Файл:src\components\News\news\ выдай мне полностью готовым.
+
+Код:
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../../../Navbar/Navbar';
@@ -8,13 +11,13 @@ import newsImageMain from './main.jpg';
 
 
 export const newsMeta = {
-  id: 3,
+  id: 20,
   title: "Test Title 3",
-  date: "Test, Date",
+  date: "Именно сегодняшяя настоящая дата (именно когда я тебе пишу сейчас, независимо от того что написано в тексте новости) в формате (день месяц, год)",
   image: newsImage,
   imagePool: newsImagePool,
   imageMain: newsImageMain,
-  excerpt: "Test Description"
+  excerpt: "Краткое описание новости"
 };
 
 const News: React.FC = () => {
@@ -61,3 +64,13 @@ const News: React.FC = () => {
 };
 
 export default News; 
+
+
+Задача: Изменить содержание овости, а именно <div className={styles.newsText}>. Ничего не удалять, структуру newsMeta не удалять, не изменять, ничего не добавлять. В структуре newsMeta написать соответсвующие значения. 
+
+
+
+Заголовок:
+
+ 
+Текст (Не изменять, не укорачивать, ничего не добавлять, только сплошняком вставь то что ниже, и структурировано подели на абзацы, загловки не добавлять, просто поделить):

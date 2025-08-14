@@ -1,7 +1,6 @@
 .photo-block-section {
   padding-top: 0px;
   padding-bottom: 60px;
-  background-color: #000000;
   overflow: hidden;
   position: relative;
 }
@@ -13,7 +12,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('/images/bg-photoblock.jpg');
+  background-image: url('/images/bg-photoblock1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,7 +86,7 @@
 
 .album-button:hover {
   transform: translateY(-5px);
-  background-color: #b48026 !important;
+  background-color: #128d85 !important;
 }
 
 .album-button-image {

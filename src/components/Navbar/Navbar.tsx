@@ -124,7 +124,12 @@ const Navbar: React.FC = () => {
         <div className="navbar-container">
           <div className="navbar-left">
             <div onClick={handleHomeClick} className="logo" style={{ cursor: 'pointer' }}>
-              <img src="/images/logo.png" alt="ТЕХПРО" className="logo-image" />
+              {/* <img src="/images/logo.png" alt="ТЕХПРО" className="logo-image" /> */}
+              <img
+                src={location.pathname === '/' ? '/images/logo.png' : '/images/logo-black.png'}
+                alt="ТЕХПРО"
+                className="logo-image"
+              />
             </div>
           </div>
 

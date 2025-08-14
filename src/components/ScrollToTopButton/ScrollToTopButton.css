@@ -6,7 +6,7 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: #efaa34;
+  background: #38ace6;
   color: #fff;
   border: none;
   box-shadow: 0 4px 24px rgba(0,0,0,0.18);
@@ -28,5 +28,5 @@
 }
 
 .scroll-to-top-btn:hover {
-  background: #d0a933;
+  background: #2ea2dd;
 } 

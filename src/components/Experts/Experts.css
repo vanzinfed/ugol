@@ -9,7 +9,7 @@
   font-family: 'Onest', sans-serif;
   font-weight: 800;
   font-size: 36px;
-  color: #efaa34; /* изменён цвет */
+  color: #1db8ad; /* изменён цвет */
   text-align: center;
   line-height: 1.1;
   margin-bottom: 36px !important;
@@ -18,14 +18,14 @@
 }
 
 .section-title span {
-  color: #d8b84d;
+  color: #1db8ad;
 }
 
 .section-subtitle {
   font-family: 'Onest', sans-serif;
   font-weight: 600;
   font-size: 20px;
-  color: #5c4a00;
+  color: #006d66 !important;
   opacity: 0.9;
   margin-bottom: 0;
   margin-top: 0;
@@ -89,19 +89,19 @@
   font-family: 'Onest', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  color: #efaa34; /* изменён цвет */
+  color: #1db8ad; /* изменён цвет */
   margin-bottom: 6px;
   transition: color 0.3s ease;
 }
 
 .expert-card:hover .expert-info h3 {
-  color: #d8b84d;
+  color: #1db8ad;
 }
 
 .expert-description {
   font-family: 'Onest', sans-serif;
   font-size: 14px;
-  color: #5c4a00;
+  color: #005853;
   line-height: 1.4;
   opacity: 0.9;
 }
@@ -110,7 +110,7 @@
   display: block;
   margin: 40px auto 0;
   padding: 12px 32px;
-  background: #efaa34;
+  background: #1db8ad;
   color: white;
   border: none;
   border-radius: 8px;
@@ -123,7 +123,7 @@
 }
 
 .show-more-btn:hover {
-  background: #e0c767;
+  background: #005853;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(208, 169, 51, 0.3);
 }

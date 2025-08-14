@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(239, 170, 52, 0.5);
+  background-color: rgba(30, 129, 208, 0.5);
   backdrop-filter: blur(20px);
   z-index: 1001;
   padding: 8px 0;
@@ -64,7 +64,7 @@
 }
 
 .navbar.scrolled {
-  background-color: rgba(239, 170, 52, 0.5);
+  background-color: rgba(30, 129, 208, 0.5);
   backdrop-filter: blur(20px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   padding: 15px 0;
@@ -129,16 +129,16 @@
 }
 
 .navbar.scrolled .nav-link {
-  color: #000000;
+  color: #ffffff;
 }
 
 .navbar.scrolled .nav-link:hover {
-  color: #a0a0a0;
+  color: #c7c7c7;
 }
 
 .register-btn {
-  background-color: #efaa34;
-  color: #000000;
+  background-color: #1db8ad;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -148,13 +148,13 @@
   cursor: pointer;
   margin-left: 15px;
   transition: all 0.3s ease;
-  box-shadow: 0 0 27.1px rgba(255, 68, 0, 0.35);
+  box-shadow: 0 0 27.1px rgba(51, 166, 220, 0.35);
 }
 
 .register-btn:hover {
-  background-color: #cf932c;
+  background-color: #17a198;
   transform: translateY(-2px);
-  box-shadow: 0 0 30px rgba(255, 68, 0, 0.5);
+  box-shadow: 0 0 30px rgba(51, 166, 220, 0.5);
 }
 
 .mobile-menu-btn {
@@ -208,8 +208,8 @@
 
 .mobile-register-btn {
   display: none;
-  background-color: #efaa34;
-  color: #000000;
+  background-color: #45cfa4;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   padding: 6px 12px;
@@ -218,15 +218,15 @@
   font-size: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 0 27.1px rgba(255, 68, 0, 0.35);
+  box-shadow: 0 0 27.1px rgba(51, 166, 220, 0.35);
   margin: 0 10px;
   white-space: nowrap;
 }
 
 .mobile-register-btn:hover {
-  background-color: #cf932c;
+  background-color: #24bb95;
   transform: translateY(-2px);
-  box-shadow: 0 0 30px rgba(255, 68, 0, 0.5);
+  box-shadow: 0 0 30px rgba(51, 166, 220, 0.5);
 }
 
 @media (max-width: 1024px) {
@@ -320,20 +320,22 @@
 
 .navbar.news-page .nav-link:hover,
 .navbar.news-page .mobile-link:hover {
-  color: #efaa34;
+  color: #17a198;
 }
 
 .navbar.news-page .register-btn,
 .navbar.news-page .mobile-register-btn {
-  background-color: #efaa34;
+  background-color: #1db8ad;
   color: #fff;
-  box-shadow: 0 0 27.1px rgba(255, 68, 0, 0.35);
+  box-shadow: 0 0 27.1px rgba(51, 166, 220, 0.35);
+
 }
 
 .navbar.news-page .register-btn:hover,
 .navbar.news-page .mobile-register-btn:hover {
-  background-color: #bd872b;
-  box-shadow: 0 0 30px rgba(255, 68, 0, 0.5);
+  background-color: #17a198;
+  box-shadow: 0 0 27.1px rgba(51, 166, 220, 0.5);
+
 }
 
 .navbar.news-page .mobile-menu {
@@ -357,20 +359,20 @@
 
 .navbar.become-partner-page .nav-link:hover,
 .navbar.become-partner-page .mobile-link:hover {
-  color: #efaa34;
+  color: #1db8ad;
 }
 
 .navbar.become-partner-page .register-btn,
 .navbar.become-partner-page .mobile-register-btn {
-  background-color: #efaa34;
+  background-color: #1db8ad;
   color: #fff;
-  box-shadow: 0 0 27.1px rgba(255, 68, 0, 0.35);
+  box-shadow: 0 0 27.1px rgba(51, 166, 220, 0.35);
 }
 
 .navbar.become-partner-page .register-btn:hover,
 .navbar.become-partner-page .mobile-register-btn:hover {
-  background-color: #bd872b;
-  box-shadow: 0 0 30px rgba(255, 68, 0, 0.5);
+  background-color: #17a198;
+  box-shadow: 0 0 27.1px rgba(51, 166, 220, 0.5);
 }
 
 .navbar.become-partner-page .mobile-menu {

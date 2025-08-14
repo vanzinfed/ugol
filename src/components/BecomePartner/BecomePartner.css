@@ -1,6 +1,6 @@
 .become-partner {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/reg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/images/about1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -103,7 +103,8 @@
 }
 
 .become-partner-package-card:hover .become-partner-package-header {
-  background: var(--package-color, #efaa34);
+  /* background: var(--package-color, #1db8ad); */
+  background: #1db8ad;
 }
 
 .become-partner-package-header::before {
@@ -113,6 +114,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  /* background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%); */
   background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
   pointer-events: none;
 }

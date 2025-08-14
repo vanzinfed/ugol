@@ -55,11 +55,12 @@ const Hero: React.FC = () => {
         </div>
         
         <p className="subtitle animate-fade-in delay-300" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
-          «Угольная промышленность: инновации, цифровизация и экологическая безопасность»
+            <span style={{ display: 'block' }}>«Угольная промышленность:</span>
+            <span style={{ display: 'block', whiteSpace: 'nowrap' }}>инновации, цифровизация и экология»</span>
         </p>
 
         <div className="event-info animate-fade-in delay-400">
-          <p className="event-date">17 октября 2025</p>
+          <p className="event-date">14 октября 2025</p>
           <p className="event-location">Москва</p>
         </div>
         

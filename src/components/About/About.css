@@ -1,24 +1,24 @@
 :root {
-  --color-orange-500: #efaa34;
-  --color-orange-400: #f1b951;
-  --color-orange-300: #f4c86e;
-  --color-orange-200: #f6d78b;
-  --color-orange-100: #fff2d1;
-  --shadow-dark: rgba(0, 0, 0, 0.6);
-  --shadow-light: rgba(255, 255, 255, 0.15);
+  --color-orange-500: #1db8ad;
+  --color-orange-400: #3da4a2;
+  --color-orange-300: #33ab9b;
+  --color-orange-200: #53bdad;
+  --color-orange-100: #dcf7ef;
+  --shadow-dark: rgba(0, 0, 0, 0.0);
+  --shadow-light: rgba(255, 255, 255, 0.0);
 }
 
 .about-section {
   position: relative;
   overflow: hidden;
   padding: 60px 20px;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/images/about.jpg');
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/images/about.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image:
-    linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-    url('/images/about.jpg'),
+    linear-gradient(135deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
+    url('/images/about1.jpg'),
     radial-gradient(circle at 30% 30%, var(--color-orange-300) 2px, transparent 3px),
     radial-gradient(circle at 70% 70%, var(--color-orange-400) 2px, transparent 3px);
   background-repeat: no-repeat, no-repeat, repeat, repeat;
@@ -53,7 +53,7 @@
   font-family: 'Onest', 'Inter', Arial, sans-serif;
   font-size: 36px;
   font-weight: 900;
-  color: var(--color-orange-500);
+  color: #ffff;
   letter-spacing: 2px;
   position: relative;
   

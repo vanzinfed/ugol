@@ -74,14 +74,14 @@ const Registration: React.FC = () => {
 
   return (
     <section id="register" className="py-20 relative overflow-hidden" style={{
-      backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/reg.jpg")',
+      backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("/images/reg1.jpg")',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
     }}>
       {/* Декоративные элементы */}
-      <div className="absolute top-1/4 -right-64 w-96 h-96 bg-[#e8d681] rounded-full blur-3xl opacity-20"></div>
-      <div className="absolute bottom-1/4 -left-64 w-96 h-96 bg-[#d8b84d] rounded-full blur-3xl opacity-20"></div>
+      <div className="absolute top-1/4 -right-64 w-96 h-96 bg-[#1db8ad] rounded-full blur-3xl opacity-20"></div>
+      <div className="absolute bottom-1/4 -left-64 w-96 h-96 bg-[#00ffeeff] rounded-full blur-3xl opacity-20"></div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-2xl mx-auto text-center mb-12">
@@ -91,20 +91,20 @@ const Registration: React.FC = () => {
               fontFamily: 'Onest, sans-serif',
               fontWeight: 800,
               fontSize: 36,
-              color: '#efaa34',
+              color: '#1db8ad',
               textAlign: 'center',
               lineHeight: 1.1,
               marginBottom: 16,
             }}
           >
-            Запросить условия <span style={{ color: '#efaa34' }}>участия</span>
+            Запросить условия <span style={{ color: '#1db8ad' }}>участия</span>
           </h2>
           <p
             style={{
               fontFamily: 'Onest, sans-serif',
               fontWeight: 600,
               fontSize: 16,
-              color: '#efaa34',
+              color: '#4B5563',
               opacity: 0.9,
               marginBottom: 0,
               marginTop: 0,
@@ -116,7 +116,7 @@ const Registration: React.FC = () => {
           </p>
         </div>
 
-        <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden border border-[#e0c767]">
+        <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden border border-[#1db8ad]">
           {!isSubmitted ? (
             <form ref={formRef} onSubmit={handleSubmit} className="p-6">
               {error && (
@@ -127,10 +127,10 @@ const Registration: React.FC = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
-                  <label htmlFor="firstName" className="block text-[#5c4a00] font-medium mb-2">Имя</label>
+                  <label htmlFor="firstName" className="block text-[#fffff] font-medium mb-2">Имя</label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <User size={18} className="text-[#d0a933]" />
+                      <User size={18} className="text-[#1db8ad]" />
                     </div>
                     <input
                       type="text"
@@ -139,16 +139,16 @@ const Registration: React.FC = () => {
                       value={formData.firstName}
                       onChange={handleChange}
                       required
-                      className="w-full pl-10 pr-4 py-3 border border-[#e0c767] rounded-lg focus:ring-2 focus:ring-[#d0a933] focus:border-[#d0a933] transition-colors text-gray-900"
+                      className="w-full pl-10 pr-4 py-3 border border-[#1db8ad] rounded-lg focus:ring-2 focus:ring-[#1db8ad] focus:border-[#1db8ad] transition-colors text-gray-900"
                       placeholder="Введите ваше имя"
                     />
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="lastName" className="block text-[#5c4a00] font-medium mb-2">Фамилия</label>
+                  <label htmlFor="lastName" className="block text-[#fffff] font-medium mb-2">Фамилия</label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <User size={18} className="text-[#d0a933]" />
+                      <User size={18} className="text-[#1db8ad]" />
                     </div>
                     <input
                       type="text"
@@ -157,7 +157,7 @@ const Registration: React.FC = () => {
                       value={formData.lastName}
                       onChange={handleChange}
                       required
-                      className="w-full pl-10 pr-4 py-3 border border-[#e0c767] rounded-lg focus:ring-2 focus:ring-[#d0a933] focus:border-[#d0a933] transition-colors text-gray-900"
+                      className="w-full pl-10 pr-4 py-3 border border-[#1db8ad] rounded-lg focus:ring-2 focus:ring-[#1db8ad] focus:border-[#1db8ad] transition-colors text-gray-900"
                       placeholder="Введите вашу фамилию"
                     />
                   </div>
@@ -165,10 +165,10 @@ const Registration: React.FC = () => {
               </div>
 
               <div className="mb-6">
-                <label htmlFor="email" className="block text-[#5c4a00] font-medium mb-2">Email</label>
+                <label htmlFor="email" className="block text-[#fffff] font-medium mb-2">Email</label>
                 <div className="relative">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <Mail size={18} className="text-[#d0a933]" />
+                    <Mail size={18} className="text-[#1db8ad]" />
                   </div>
                   <input
                     type="email"
@@ -177,7 +177,7 @@ const Registration: React.FC = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full pl-10 pr-4 py-3 border border-[#e0c767] rounded-lg focus:ring-2 focus:ring-[#d0a933] focus:border-[#d0a933] transition-colors text-gray-900"
+                    className="w-full pl-10 pr-4 py-3 border border-[#1db8ad] rounded-lg focus:ring-2 focus:ring-[#1db8ad] focus:border-[#1db8ad] transition-colors text-gray-900"
                     placeholder="example@company.com"
                   />
                 </div>
@@ -185,10 +185,10 @@ const Registration: React.FC = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
-                  <label htmlFor="company" className="block text-[#5c4a00] font-medium mb-2">Компания</label>
+                  <label htmlFor="company" className="block text-[#fffff] font-medium mb-2">Компания</label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <Briefcase size={18} className="text-[#d0a933]" />
+                      <Briefcase size={18} className="text-[#1db8ad]" />
                     </div>
                     <input
                       type="text"
@@ -197,16 +197,16 @@ const Registration: React.FC = () => {
                       value={formData.company}
                       onChange={handleChange}
                       required
-                      className="w-full pl-10 pr-4 py-3 border border-[#e0c767] rounded-lg focus:ring-2 focus:ring-[#d0a933] focus:border-[#d0a933] transition-colors text-gray-900"
+                      className="w-full pl-10 pr-4 py-3 border border-[#1db8ad] rounded-lg focus:ring-2 focus:ring-[#1db8ad] focus:border-[#1db8ad] transition-colors text-gray-900"
                       placeholder="Название компании"
                     />
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="position" className="block text-[#5c4a00] font-medium mb-2">Должность</label>
+                  <label htmlFor="position" className="block text-[#fffff] font-medium mb-2">Должность</label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <Briefcase size={18} className="text-[#d0a933]" />
+                      <Briefcase size={18} className="text-[#1db8ad]" />
                     </div>
                     <input
                       type="text"
@@ -215,7 +215,7 @@ const Registration: React.FC = () => {
                       value={formData.position}
                       onChange={handleChange}
                       required
-                      className="w-full pl-10 pr-4 py-3 border border-[#e0c767] rounded-lg focus:ring-2 focus:ring-[#d0a933] focus:border-[#d0a933] transition-colors text-gray-900"
+                      className="w-full pl-10 pr-4 py-3 border border-[#1db8ad] rounded-lg focus:ring-2 focus:ring-[#1db8ad] focus:border-[#1db8ad] transition-colors text-gray-900"
                       placeholder="Ваша должность"
                     />
                   </div>
@@ -223,10 +223,10 @@ const Registration: React.FC = () => {
               </div>
 
               <div className="mb-6">
-                <label htmlFor="phone" className="block text-[#5c4a00] font-medium mb-2">Телефон</label>
+                <label htmlFor="phone" className="block text-[#fffff] font-medium mb-2">Телефон</label>
                 <div className="relative">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <Phone size={18} className="text-[#d0a933]" />
+                    <Phone size={18} className="text-[#1db8ad]" />
                   </div>
                   <input
                     type="tel"
@@ -235,7 +235,7 @@ const Registration: React.FC = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full pl-10 pr-4 py-3 border border-[#e0c767] rounded-lg focus:ring-2 focus:ring-[#d0a933] focus:border-[#d0a933] transition-colors text-gray-900"
+                    className="w-full pl-10 pr-4 py-3 border border-[#1db8ad] rounded-lg focus:ring-2 focus:ring-[#1db8ad] focus:border-[#1db8ad] transition-colors text-gray-900"
                     placeholder="+7 (XXX) XXX-XX-XX"
                   />
                 </div>
@@ -254,7 +254,7 @@ const Registration: React.FC = () => {
                       className="w-4 h-4 border border-[#e0c767] rounded bg-gray-50 focus:ring-3 focus:ring-[#d0a933]"
                     />
                   </div>
-                  <label htmlFor="personalDataConsent" className="ml-2 text-sm font-medium text-[#5c4a00]">
+                  <label htmlFor="personalDataConsent" className="ml-2 text-sm font-medium text-[#fffff]">
                     Я даю согласие на обработку персональных данных
                   </label>
                 </div>
@@ -269,7 +269,7 @@ const Registration: React.FC = () => {
                       className="w-4 h-4 border border-[#e0c767] rounded bg-gray-50 focus:ring-3 focus:ring-[#d0a933]"
                     />
                   </div>
-                  <label htmlFor="newsletterConsent" className="ml-2 text-sm font-medium text-[#5c4a00]">
+                  <label htmlFor="newsletterConsent" className="ml-2 text-sm font-medium text-[#fffff]">
                     Я даю согласие на получение информационных рассылок
                   </label>
                 </div>
@@ -279,7 +279,7 @@ const Registration: React.FC = () => {
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className={`px-8 py-3 bg-[#efaa34] hover:bg-[#e0c767] text-white font-bold rounded-lg shadow-md transition-transform transform hover:scale-105 ${
+                  className={`px-8 py-3 bg-[#1db8ad] hover:bg-[#009e96] text-white font-bold rounded-lg shadow-md transition-transform transform hover:scale-105 ${
                     isLoading ? 'opacity-50 cursor-not-allowed' : ''
                   }`}
                 >

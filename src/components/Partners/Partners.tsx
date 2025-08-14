@@ -5,15 +5,29 @@ const partnerLogos = [
   '/images/part1.png',
   '/images/part2.png',
   '/images/part3.png',
+  '/images/part8.png',
+  '/images/partSDS-ugol.png',
+  '/images/partkoks.png',
+  '/images/part6.png',
+  '/images/partvostnii.png',
+  '/images/partspirit.png',
+  '/images/partsgk.png',
+  '/images/part11.png',
+  '/images/partkamaz.png',
+  '/images/partrodina.png',
+  '/images/partuglemetan.png',
+  '/images/partkru.png',
+  '/images/partalzamir.png',
+  '/images/partperspectivniye.png',
+  '/images/partrazrez.png',
+  '/images/partsgmk.png',
+
   '/images/part4.png',
   '/images/part19.png',
   '/images/part5.png',
-  '/images/part6.png',
   '/images/part7.png',
-  '/images/part8.png',
   '/images/part9.png',
   '/images/part10.png',
-  '/images/part11.png',
   '/images/part12.png',
   '/images/part13.png',
   '/images/part14.png',
@@ -21,6 +35,7 @@ const partnerLogos = [
   '/images/part16.png',
   '/images/part17.png',
   '/images/part18.png',
+  '/images/part20.png',
 ];
 
 const Partners: React.FC = () => {
@@ -86,7 +101,7 @@ const Partners: React.FC = () => {
       <div 
         className="partners-bg" 
         style={{
-          backgroundImage: 'url(/images/partbg.jpg)',
+          backgroundImage: 'url(/images/reg1.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           position: 'absolute',
@@ -94,7 +109,7 @@ const Partners: React.FC = () => {
           left: 0,
           right: 0,
           bottom: 0,
-          filter: 'brightness(0.3)',
+          filter: 'brightness(1)',
           zIndex: 0
         }}
       />
@@ -114,7 +129,7 @@ const Partners: React.FC = () => {
               zIndex: 1
             }}
           >
-            <span style={{ color: '#efaa34' }}>Партнеры</span>
+            <span style={{ color: '#1db8ad' }}>Партнеры</span>
           </h2>
         </div>
         <div className="partners-marquee-wrapper">

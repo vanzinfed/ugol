@@ -98,9 +98,9 @@ const Footer: React.FC = () => {
   return (
     <footer className="relative overflow-hidden text-blue-100/70 py-12">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black/80 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
         <img 
-          src="/images/bg-footer.jpg" 
+          src="/images/bg-footer1.jpg" 
           alt="footer background" 
           className="w-full h-full object-cover"
         />
